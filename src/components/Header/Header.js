@@ -156,6 +156,7 @@ export const PureHeader = () => {
             active={active}
             hamburger={hamburger.publicURL}
             close={close.publicURL}
+            aria-label="Menu Toggle Button"
           />
           <Navigation active={active} ref={navRef}>
             <NavList>
