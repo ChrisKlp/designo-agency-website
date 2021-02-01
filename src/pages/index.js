@@ -1,22 +1,41 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import styled from 'styled-components'
+import Features from '../components/Features/Features'
+import Container from '../components/helpers/Container'
+import CallToAction from '../components/CallToAction/CallToAction'
+import { MainIntro } from '../components/Intro'
+import media from '../global/mediaQueries'
+import { CategoryList } from '../components/Projects'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+const StyledCategoryList = styled(CategoryList)`
+  margin: 12rem 0;
+
+  @media (${media.lg}) {
+    margin: 16rem 0;
+  }
+`
+
+const StyledFeatures = styled(Features)`
+  margin-bottom: 12rem;
+
+  @media (${media.md}) {
+    margin-bottom: 6.7rem;
+  }
+
+  @media (${media.md}) {
+    margin-bottom: 16rem;
+  }
+`
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  <>
+    <MainIntro />
+    <Container>
+      <StyledCategoryList />
+      <StyledFeatures />
+    </Container>
+    <CallToAction />
+  </>
 )
 
 export default IndexPage

@@ -1,0 +1,32 @@
+[
+  {
+    "location": "Canada",
+    "office": "Designo Central Office",
+    "addressLine1": "3886 Wellington Street",
+    "addressLine2": "Toronto, Ontario M9C 3J5",
+    "phone": "+1 253-863-896",
+    "email": "contact@designo.co",
+    "illustration": "../assets/shared/desktop/illustration-canada.svg",
+    "map-position": [43.64401, -79.39458]
+  },
+  {
+    "location": "Australia",
+    "office": "Designo AU Office",
+    "addressLine1": "19 Balonne Street",
+    "addressLine2": "New South Wales 2443",
+    "phone": "(02) 6720 9092",
+    "email": "contact@designo.au",
+    "illustration": "../assets/shared/desktop/illustration-australia.svg",
+    "map-position": [-30.329531, 149.788193]
+  },
+  {
+    "location": "United Kingdom",
+    "office": "Designo UK Office",
+    "addressLine1": "13 Colorado Way",
+    "addressLine2": "Rhyd-y-fro SA8 9GA",
+    "phone": "078 3115 1400",
+    "email": "contact@designo.co",
+    "illustration": "../assets/shared/desktop/illustration-united-kingdom.svg",
+    "map-position": [40.51428, -107.5474]
+  }
+]

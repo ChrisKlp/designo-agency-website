@@ -1,0 +1,28 @@
+{
+  "heading": "Graphic Design",
+  "text": "We deliver eye-catching branding materials that are tailored to meet your business objectives.",
+  "slug": "graphic-design",
+  "order": 3,
+  "categoryImages": [
+    "../../assets/home/mobile/image-graphic-design.jpg",
+    "../../assets/home/tablet/image-graphic-design.jpg",
+    "../../assets/home/desktop/image-graphic-design.jpg"
+  ],
+  "projects": [
+    {
+      "title": "Tim Brown",
+      "content": "A book cover designed for Tim Brown’s new release, ‘Change’",
+      "image": "../../assets/graphic-design/desktop/image-change.jpg"
+    },
+    {
+      "title": "Boxed water",
+      "content": "A simple packaging concept made for Boxed Water",
+      "image": "../../assets/graphic-design/desktop/image-boxed-water.jpg"
+    },
+    {
+      "title": "Science!",
+      "content": "A poster made in collaboration with the Federal Art Project",
+      "image": "../../assets/graphic-design/desktop/image-science.jpg"
+    }
+  ]
+}

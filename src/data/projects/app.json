@@ -1,0 +1,38 @@
+{
+  "heading": "App Design",
+  "text": "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.",
+  "slug": "app-design",
+  "order": 2,
+  "categoryImages": [
+    "../../assets/home/mobile/image-app-design.jpg",
+    "../../assets/home/tablet/image-app-design.jpg",
+    "../../assets/home/desktop/image-app-design.jpg"
+  ],
+  "projects": [
+    {
+      "title": "Airfilter",
+      "content": "Solving the problem of poor indoor air quality by filtering the air",
+      "image": "../../assets/app-design/desktop/image-airfilter.jpg"
+    },
+    {
+      "title": "Eyecam",
+      "content": "Product that lets you edit your favorite photos and videos at any time",
+      "image": "../../assets/app-design/desktop/image-eyecam.jpg"
+    },
+    {
+      "title": "Faceit",
+      "content": "Get to meet your favorite internet superstar with the faceit app",
+      "image": "../../assets/app-design/desktop/image-faceit.jpg"
+    },
+    {
+      "title": "Todo",
+      "content": "A todo app that features cloud sync with light and dark mode",
+      "image": "../../assets/app-design/desktop/image-todo.jpg"
+    },
+    {
+      "title": "Loopstudios",
+      "content": "A VR experience app made for Loopstudios",
+      "image": "../../assets/app-design/desktop/image-loopstudios.jpg"
+    }
+  ]
+}
